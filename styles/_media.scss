@@ -1,0 +1,19 @@
+@media screen and (min-width: 23.5rem) {
+  .card-container {
+    max-width: 57.5rem;
+  }
+
+  .card {
+    padding: 0 4rem 3rem 1.65rem;
+  }
+}
+
+@media screen and (max-width: 23.4rem) {
+  .card-container {
+    flex-direction: column;
+    margin: 2rem;
+  }
+  .card {
+    padding: 0 4rem 3rem 1.65rem;
+  }
+}
