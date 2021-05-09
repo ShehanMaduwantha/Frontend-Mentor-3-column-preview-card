@@ -12,4 +12,14 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  background-color: grey;
+}
 /*# sourceMappingURL=style.css.map */
