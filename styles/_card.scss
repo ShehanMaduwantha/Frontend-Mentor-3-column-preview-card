@@ -3,5 +3,67 @@
 }
 
 .card {
-  background-color: grey;
+  &-first {
+    background-color: $bright-orange;
+
+    a {
+      color: $bright-orange;
+    }
+  }
+  &-second {
+    background-color: $dark-cyan;
+
+    a {
+      color: $dark-cyan;
+    }
+  }
+  &-third {
+    background-color: $very-dark-cyan;
+
+    a {
+      color: $very-dark-cyan;
+    }
+  }
+
+  &-icon {
+    margin-top: 3rem;
+    margin-bottom: 2.62rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-family: $shoulders;
+    text-transform: uppercase;
+    color: $very-light-gray;
+    margin-bottom: 2.43rem;
+  }
+
+  p {
+    font-size: 0.937rem;
+    line-height: 1.56rem;
+    margin-bottom: 5.62rem;
+    font-family: $lexend;
+    color: $transparent-white;
+  }
+
+  a {
+    font-size: 0.937rem;
+    text-decoration: none;
+    padding: 1rem 1.62rem;
+    background-color: $very-light-gray;
+    border-radius: 1.56rem;
+    font-family: $lexend;
+
+    &:hover {
+      background-color: transparent;
+      border: 0.2rem solid $very-light-gray;
+      color: white;
+    }
+  }
+}
+
+.attribution {
+  margin-top: 3rem;
+  font-family: $lexend;
+  text-align: center;
 }
